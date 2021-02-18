@@ -31,7 +31,7 @@ html{
 
 p{
     font-size: 13px;
-    color: #777777;
+    color: #333333;
     line-height: 24px;
     font-family: 'Poppins', sans-serif;
  }
@@ -62,7 +62,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #000;
+    color: #F47920;
 }
 
 nav ul li a:hover{
@@ -84,15 +84,17 @@ nav ul li a:hover{
 
 
 footer{
-    background: #000;
+    background: #F47920;
     padding: 90px 0;
     margin-top:90px;
     text-align: center;
+    color:white;
 }
 
 footer p{
     line-height: 20px;
     margin-top: 20px;
+    color:white;
 }
 
 .site-button:focus{
@@ -931,6 +933,7 @@ input:-webkit-autofill {
 .section-title h2{
     font-size: 23px;
     font-weight: bold;
+    color: #F0B429;
 }
 
 .section-title p{
@@ -1158,7 +1161,7 @@ ul.post-comment li p {
     width: 60px;
     height: 60px;
     text-align: center;
-    background: #000;
+    background: #005883;
     border-radius: 50px;
     color: #fff;
     padding-top: 20px;
@@ -1234,6 +1237,10 @@ a.site-button{
     transition: all ease 0.3s;
 }
 
+a. {
+   
+    color: green;
+}
 
 
 
@@ -1391,13 +1398,47 @@ a.site-button{
 
 
 
+.page{
+        display: table;
+        width: 100%
+    }
+    
+    aside{
+        float: left;
+        width: 40%
+    }
 
 
 
 
+  li{
+    list-style-type:none;
+    position:relative;
+    width:120px;
+    }
+                
+    li a{
+    text-decoration:none;
+    display:inline-block;
+    padding:5px 10px;
+    width:120px;
+    height:30px;
+   
+    }
+            
+    li a:hover{
+    color:#000;
+    background-color:#fff;
+                
+    }
 
 
-
-
-
+nav li ul{
+        display:none;
+        position:absolute;
+        top:32px;
+      
+    }
+            
+    nav li:hover ul{display:block;}
 
